@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="../css/register.css">
+	<link rel="stylesheet" type="text/css" href="../css/resetres.css">
+	<link rel="stylesheet" type="text/css" href="../Iconfont/iconfont.css">
+	<script src="../js/register.js"></script>
+</head>
+<body>
+<div id="logging">
+	<div class="top">
+		<a href="login.html">
+			<span>&#xe628;</span>
+		</a>
+		<p>进入蘑菇街</p>
+	</div>
+	<div class="hr"></div>
+	<div class="country">国家与地区</div>
+	<div class="china">
+		<p>中国 +</p>
+		<a>86</a>
+		<span>&#xe625;</span>
+	</div>
+	<div class="accounts">你的手机号码是？</div>
+<form action="login.html">
+	<div class="import">
+		<input type="text" placeholder="输入手机号码" id="inp">
+	</div>
+	<div class="hx"></div>
+	<div class="accounts2">验证码</div>
+	<div class="import2">
+		<input type="text" placeholder="输入验证码" id="pwd">
+		<p>发送验证码</p>
+	</div>
+	<div class="lx"></div>
+	<button id="btn">一键注册</button>
+</form>
+	<div class="link"><a href="login.html">帐号密码登录</a></div>
+	<div class="ling"><a href="index.html">免密登录</a></div>
+	<div class="tally">
+		<div class="tall"></div>
+		<div class="tor">or</div>
+		<div class="tal"></div>
+	</div>
+	<img src="../img/png/qq.png">
+</div>
+</body>
+</html>
+<script>
+	var btn=document.getElementById('btn');
+	btn.onclick=function(){
+		var inp=document.getElementById('inp').value;
+		var pwd=document.getElementById('pwd').value;
+		if(inp.length>18||inp.length<11){
+			var pat = /^1\d{10}$/
+			if(inp!=pat){
+				alert('手机号码必须以1开头')
+				return
+			}
+				alert('手机号码长度不能低于11位，不高于18位')
+				return
+			}
+			if(pwd.length>6||pwd.length<4){
+				if(pwd ==" "){
+					alert('验证码不正确')
+					return
+				}
+				alert('验证码长度不正确')
+					return
+			}
+			alert('恭喜你注册成功')
+	}
+</script>

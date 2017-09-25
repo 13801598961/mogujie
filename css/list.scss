@@ -1,0 +1,605 @@
+@function sum($num){
+	@return $num/20;
+}
+span{
+	font-family:"iconfont";
+}
+ul,li{
+	margin:0;
+	padding:0;
+}
+li{
+	list-style-type:none;
+}
+#market{
+	height:sum(40rem);
+	.hx{
+		float:left;
+		margin-left:sum(95rem);
+		margin-top:sum(15rem);
+		width:sum(40rem);
+		height:sum(1rem);
+		background:#999;
+	}
+	a{
+		text-decoration:none;
+		margin-left:sum(10rem);
+		font-size:sum(15rem);
+		font-weight:bold;
+		color:black;
+	}
+	.hx2{
+		margin-left:sum(205rem);
+		margin-top:sum(-10rem);
+		width:sum(40rem);
+		height:sum(1rem);
+		background:#999;
+	}
+}
+#yuan{
+	.shuai{
+		float:left;
+		margin:sum(12rem);
+		margin-bottom:sum(10rem);
+		.chunk{
+			img{
+				float:left;
+				height:sum(55rem);
+				width:sum(55rem);
+				border-radius:50%;
+			}
+			a{
+				clear:both;
+				margin-left:sum(5rem);
+				float:left;
+				color:black;
+				font-size:sum(10rem);
+			}
+		}
+	}
+} 
+#hr{	
+		clear:both;
+		height:sum(10rem);
+		background:#f6f6f6;
+	}	
+#maring{
+	clear:both;
+	height:sum(80rem);
+	background:#f6f6f6;
+	.hx{
+		float:left;
+		margin-left:sum(95rem);
+		margin-top:sum(40rem);
+		width:sum(40rem);
+		height:sum(1rem);
+		background:#999;
+	}
+	a{
+		color:black;
+		text-decoration:none;
+		font-weight:bold;
+		float:left;
+		margin-top:sum(30rem);
+		margin-left:sum(10rem);
+		font-size:sum(15rem);
+	}
+	.hx2{
+		clear:both;
+		float:left;
+		margin-left:sum(205rem);
+		margin-top:sum(-12rem);
+		width:sum(40rem);
+		height:sum(1rem);
+		background:#999;
+	}
+}
+#preview{
+	overflow:hidden;
+}
+.hidden{
+	display:none;
+}
+.scrolldoorFrame{
+	width:100%;
+	overflow:hidden;
+}
+.scrollUl{
+	width:100%;
+	background:red;
+	overflow:hidden;
+	height:sum(35rem);
+	font-size:sum(15rem);
+}
+.scrollUl li{
+	float:left;
+}
+.bor03{
+	height:100%;
+	width:100%;
+	background:#eee;
+	.master{
+		float:left;
+		margin:sum(5rem);
+		height:sum(265rem);
+		width:sum(150rem);
+		background:#fff;
+		img{
+			float:left;
+			height:sum(200rem);
+			width:sum(150rem)
+		}
+		a{
+			float:left;
+			height:sum(16rem);
+			width:sum(40rem);
+			line-height:sum(16rem);
+			text-align:center;
+			margin-top:sum(15rem);
+			margin-left:sum(5rem);
+			font-size:sum(12rem);
+			background:#eff3f6;
+			color:#5a6f7a;
+		}
+		p{
+			float:left;
+			height:sum(16rem);
+			width:sum(40rem);
+			line-height:sum(16rem);
+			text-align:center;
+			margin-top:sum(15rem);
+			margin-left:sum(5rem);
+			font-size:sum(12rem);
+			background:#eff3f6;
+			color:#5a6f7a;
+		}
+		b{
+			clear:both;
+			float:left;
+			margin-left:sum(5rem);
+			margin-top:sum(15rem);
+			font-size:sum(12rem);
+			float:left;
+
+		}
+		span{
+			float:right;
+			margin-right:sum(10rem);
+			margin-top:sum(15rem);
+			font-size:sum(12rem);
+
+		}
+	}
+	.master1{
+		float:left;
+		margin:sum(5rem);
+		// margin-top:sum(7rem);
+		height:sum(265rem);
+		width:sum(150rem);
+		background:#fff;
+		img{
+			float:left;
+			height:sum(200rem);
+			width:sum(150rem)
+		}
+		a{
+			float:left;
+			height:sum(16rem);
+			width:sum(40rem);
+			line-height:sum(16rem);
+			text-align:center;
+			margin-top:sum(15rem);
+			margin-left:sum(5rem);
+			font-size:sum(12rem);
+			background:#eff3f6;
+			color:#5a6f7a;
+		}
+		b{
+			clear:both;
+			float:left;
+			margin-left:sum(5rem);
+			margin-top:sum(15rem);
+			font-size:sum(12rem);
+			float:left;
+
+		}
+		span{
+			float:right;
+			margin-right:sum(10rem);
+			margin-top:sum(15rem);
+			font-size:sum(12rem);
+
+		}
+	}
+}
+.sd01{
+	cursor:pointer;
+	color:#fff;
+	background:red;
+	margin:sum(5rem);
+	padding:sum(5rem);
+	
+}
+.sd02{
+	cursor:pointer;
+	margin:sum(5rem);
+	padding:sum(5rem);
+}
+
+#rail2{
+	clear:both;
+	height:sum(10rem);
+	background:#f6f6f6;
+}
+#floor{
+	height:sum(40rem);
+	position:fixed;
+	left:0;
+	bottom:0;
+	.fittl{
+		position:fixed;
+		left:0;
+		bottom:0;
+		height:sum(40rem);
+		width:sum(40rem);
+		font-size:sum(10rem);
+		background:#fff;
+		color:#999;
+		border:1px solid black;
+		border-left:none;
+		border-top:none;
+		border-bottom:none;
+		span{
+			float:left;
+			margin-left:sum(15rem);
+			font-size:sum(12rem);
+			color:#999;
+			
+		}
+		.turn{
+			float:left;
+			font-size:sum(10rem);
+			color:#999;
+			margin-left:sum(8rem);
+		}
+	}
+	.fittl2{
+		position:fixed;
+		left:sum(40rem);
+		bottom:0;
+		height:sum(40rem);
+		width:sum(40rem);
+		font-size:sum(10rem);
+		background:#fff;
+		border:1px solid #999;
+		border-right:none;
+		border-top:none;
+		border-bottom:none;
+		span{
+			float:left;
+			margin-left:sum(15rem);
+			font-size:sum(12rem);
+			color:#999;
+		}
+		.turn2{
+			float:left;
+			font-size:sum(10rem);
+			color:#999;
+			margin-left:sum(8rem);
+		}
+		a{
+			color:#999;
+			text-decoration:none;
+		}
+	}
+	.sitting{
+		position:fixed;
+		left:sum(80rem);
+		bottom:0;
+		font-size:sum(10rem);
+		width:sum(120rem);
+		line-height:sum(40rem);
+		text-align:center;
+		background:pink;
+		a{
+			color:red;
+			text-decoration:none;
+		}
+	}
+	#box{
+        width:sum(320rem);
+        height:sum(323rem);
+        background:#fff;
+        display: none;
+        position:absolute;
+        z-index:10008;
+    }
+    img{
+    	float:left;
+        height:sum(126rem);
+        width:sum(84rem);
+        margin-left:sum(15rem);
+        margin-top:sum(-60rem);
+    }
+	p{
+		float:left;
+		color:#333;
+		margin-left:sum(10rem);
+		margin-top:sum(10rem);
+		font-size:sum(10rem);
+	}
+	span{
+		float:left;
+		color:#333;
+		margin-top:sum(10rem);
+		font-size:sum(20rem);
+	}
+	#close{
+		float:right;
+		color:#999;
+		font-size:sum(12rem);
+		margin-right:sum(10rem);
+		margin-top:sum(10rem);
+		background:#fff;
+		outline:none;
+		border:none;
+	}
+	.repertory{
+		clear:both;
+		float:left;
+		color:#999;
+		margin-left:sum(110rem);
+		margin-top:sum(-30rem);
+		font-size:sum(10rem);
+	}
+	.hue{
+		clear:both;
+		float:left;
+		color:#999;
+		margin-left:sum(110rem);
+		margin-top:sum(-15rem);
+		font-size:sum(10rem);
+	}
+	.choice{
+		clear:both;
+		float:left;
+		height:sum(210rem);
+		width:sum(320rem);
+		.tinct{
+			font-size:sum(12rem);
+			color:#aaa;
+			margin:sum(5rem);
+		}
+		.piece{
+			float:left;
+			margin:sum(5rem);
+			height:sum(26rem);
+			width:sum(50rem);
+			color:red;
+			line-height:sum(26rem);
+			text-align:center;
+			font-size:sum(10rem);
+			border:1px solid red;
+			border-radius:sum(3rem);
+		}
+		.piece2{
+			float:left;
+			margin:sum(5rem);
+			height:sum(26rem);
+			width:sum(50rem);
+			color:#aaa;
+			line-height:sum(26rem);
+			text-align:center;
+			font-size:sum(10rem);
+			border:1px solid #aaa;
+			border-radius:sum(3rem);
+		}
+		.piece3{
+			float:left;
+			margin:sum(5rem);
+			height:sum(26rem);
+			width:sum(50rem);
+			color:#aaa;
+			line-height:sum(26rem);
+			text-align:center;
+			font-size:sum(10rem);
+			border:1px solid #aaa;
+			border-radius:sum(3rem);
+		}
+		.piece4{
+			float:left;
+			margin:sum(5rem);
+			height:sum(26rem);
+			width:sum(50rem);
+			color:#aaa;
+			line-height:sum(26rem);
+			text-align:center;
+			font-size:sum(10rem);
+			border:1px solid #aaa;
+			border-radius:sum(3rem);
+		}
+		.piece5{
+			clear:both;
+			float:left;
+			margin:sum(5rem);
+			height:sum(26rem);
+			width:sum(50rem);
+			color:#aaa;
+			line-height:sum(26rem);
+			text-align:center;
+			font-size:sum(10rem);
+			border:1px solid #aaa;
+			border-radius:sum(3rem);
+		}
+		.piece6{
+			float:left;
+			margin:sum(5rem);
+			height:sum(26rem);
+			width:sum(50rem);
+			color:#aaa;
+			line-height:sum(26rem);
+			text-align:center;
+			font-size:sum(10rem);
+			border:1px solid #aaa;
+			border-radius:sum(3rem);
+		}
+		.piece7{
+			float:left;
+			margin:sum(5rem);
+			height:sum(26rem);
+			width:sum(50rem);
+			color:red;
+			line-height:sum(26rem);
+			text-align:center;
+			font-size:sum(10rem);
+			border:1px solid red;
+			border-radius:sum(3rem);
+		}
+		.size{
+			clear:both;
+			font-size:sum(12rem);
+			color:#aaa;
+			margin:sum(5rem);
+		}
+		.but1{
+			float:left;
+			border:1px solid #bbbbbb;
+			background:#fff;
+			color:#bbbbbb;
+			outline:none;
+			height:sum(22rem);
+			width:sum(25rem);
+			margin-left:sum(10rem);
+			border-top-left-radius:sum(3rem);
+			border-bottom-left-radius:sum(3rem);
+			border-right:none;
+
+		}
+		.sut{
+			float:left;
+			border:1px solid #bbbbbb;
+			background:#fff;
+			color:#b0b0b0;
+			outline:none;
+			height:sum(20rem);
+			width:sum(30rem);
+			line-height:sum(20rem);
+			text-align:center;
+			
+		}
+		.but2{
+			float:left;
+			border:1px solid #bbbbbb;
+			background:#fff;
+			outline:none;
+			color:red;
+			height:sum(22rem);
+			width:sum(25rem);
+			border-top-right-radius:sum(3rem);
+			border-bottom-right-radius:sum(3rem);
+			border-left:none;
+		}
+	}
+    #btn{
+        position:fixed;
+		color:#fff;
+		right:0;
+		bottom:0;
+		font-size:sum(10rem);
+		width:sum(120rem);
+		line-height:sum(40rem);
+		text-align:center;
+		background:#ff5778;
+		z-index:1;
+    }
+    .inp{
+    	position:absolute;
+    	bottom:0;
+    	margin-top:sum(15rem);
+        height:sum(40rem);
+        width:sum(320rem);
+        background:#ff527e;
+        line-height:sum(40rem);
+        text-align:center;
+        font-size:sum(12rem);
+        font-weight:bold;
+        a{ 
+    	color:#fff;
+        text-decoration:none;
+   	 	}
+    }
+}
+#navs{
+	position:fixed;
+	right:sum(5rem);
+	bottom:sum(60rem);
+	a{
+		text-decoration:none;
+		.guidance{
+			height:sum(30rem);
+			width:sum(30rem);
+			line-height:sum(13rem);
+			text-align:center;
+			background:black;
+			opacity:0.5;
+			border-radius:50%;
+			.dance{	
+				font-weight:bold;
+				font-size:sum(8rem);
+				color:#fff;
+			}
+			.gui{
+				font-weight:bold;
+				font-size:sum(8rem);
+				color:#fff;
+			}
+		}
+	
+	}
+	.guidance2{
+		height:sum(30rem);
+		width:sum(30rem);
+		margin-top:sum(10rem);
+		line-height:sum(13rem);
+		text-align:center;
+		background:black;
+		opacity:0.5;
+		border-radius:50%;
+		span{	
+			font-weight:bold;
+			font-size:sum(8rem);
+			color:#fff;
+		}
+		.gui2{
+			font-weight:bold;
+			font-size:sum(8rem);
+			color:#fff;
+		}
+	}
+	.guidance3{
+		height:sum(30rem);
+		width:sum(30rem);
+		margin-top:sum(10rem);
+		line-height:sum(13rem);
+		text-align:center;
+		background:black;
+		opacity:0.5;
+		border-radius:50%;
+		span{	
+			font-weight:bold;
+			font-size:sum(8rem);
+			color:#fff;
+		}
+		.gui3{
+			font-weight:bold;
+			font-size:sum(8rem);
+			
+			a{
+				color:#fff;
+				text-decoration:none;
+			}
+		}
+	}
+
+}
+

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="../css/login.css">
+	<link rel="stylesheet" type="text/css" href="../css/resetres.css">
+	<link rel="stylesheet" type="text/css" href="../Iconfont/iconfont.css">
+	<script src="../js/login.js"></script>
+</head>
+<body>
+<div id="logging">
+	<div class="top">
+		<a href="register.html">
+			<span>&#xe628;</span>
+		</a>
+		<p>登录</p>
+		<a href="register.html">
+			<em>忘记密码</em>
+		</a>
+	</div>
+	<div class="hr"></div>
+	<div class="accounts">蘑菇街帐号</div>
+ 
+	<div class="import">
+		<input type="text" placeholder="输入姓名 / 邮箱 / 手机" id="inp">
+	</div>
+	<div class="accounts2">密码</div>
+	<div class="import2">
+		<input type="password" placeholder="输入密码" id="pwd">
+	</div>
+<form action="index.html">
+	<button id="btn">登录</button>
+</form>	
+	<div class="link"><a href="index.html">免密登录</a></div>
+	<div class="ling"><a href="register.html">帐号注册</a></div>
+	<div class="tally">
+		<div class="tall"></div>
+		<div class="tor">or</div>
+		<div class="tal"></div>
+	</div>
+	<img src="../img/png/qq.png">
+</div>
+</body>
+</html>
+<script> 
+	var btn=document.getElementById('btn');
+	btn.onclick=function(){
+		var inp=document.getElementById('inp').value;
+		var pwd=document.getElementById('pwd').value;
+		if(inp.lenth>18||inp.lenth<5){
+				alert('号码长度5-18之间或不能为空')
+				return
+			}
+		if(pwd!=''){
+			if(pwd != inp){
+				alert('亲，密码不正确')
+				return
+			}
+		} else{
+			alert('亲，密码不能为空')
+			return
+		}
+				alert('恭喜你注册成功')
+	}
+</script>
